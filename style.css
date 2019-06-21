@@ -1,0 +1,224 @@
+/* This is the stylesheet for index.html at Bytes and Words, John Snyder's homepage */
+
+/* Global */
+body {
+	background-color: #E0FFF0;	
+}
+
+/* Global */
+#Title {
+	margin-top:15px;
+	margin-left:25px;
+	font-family: Arial;
+}
+
+/* Global */
+#Subtitle {
+	margin-top:15px;
+	margin-left:25px;
+	font-family: Arial;
+}
+
+/* Global */
+#level1 {
+	display: inline-block;
+	border: 2px solid salmon;
+	background: salmon;
+	padding: 2px;
+	width: 200px;
+	margin-left: -10px;
+	text-align: right;
+	font-family: Arial;
+	border-top-right-radius: 5px;
+}
+
+/* Global */
+#level2 {
+	border: 2px solid mediumaquamarine;
+	background: mediumaquamarine;
+	padding: 2px;
+	width: 250px;
+	margin-left: -10px;
+	text-align: right;
+	font-family: Arial;
+	border-top-right-radius: 5px;
+}
+
+/* Global */
+#level3	 {
+	border: 2px solid dodgerblue;
+	background: dodgerblue;
+	padding: 2px;
+	width: 300px;
+	margin-left: -10px;
+	margin-bottom: 0px;
+	text-align: right;
+	font-family: Arial;
+	border-top-right-radius: 5px;
+	
+}
+
+/* Global */
+#level4{
+	border: 2px solid orange;
+	background: orange;
+	padding: 2px;
+	width: 350px;
+	margin-left: -10px;
+	text-align: right;
+	font-family: Arial;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* Global */
+#copyright {
+	margin-top: 20px;
+	margin-left: 20px
+}
+
+/* Used in index*/
+#bigbox {
+	border: 3px solid darkorange;
+	background: LightGoldenRodYellow;
+	border-radius: 5px;
+	padding: 2px;
+	position: absolute;
+	right: 25px;
+	width: 800px;
+	height:370px;
+	padding: 3px;
+	text-align: Center;
+	font-family: consolas;
+}
+/* Used in index */
+#bigbox p {
+	text-align: left;
+	padding: 10px;
+}
+
+/* Used in index */
+#picture {
+	border: 3px solid darkorange;
+	background: LightGoldenRodYellow;
+	border-radius: 5px;
+	padding: 2px;
+	margin-top:20px;
+	margin-left: 20px;
+	width: 300px;
+	height:270px;
+	padding: 3px;
+	text-align: Center;
+	font-family: consolas;
+}
+
+
+#profilepic {
+	padding: 20px;
+}
+
+/* Used in briefcase */
+hr {
+	border: 1px solid black;
+	background-color: black;
+	border-radius: 2px;
+	height: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Used in briefcase */
+.file {
+	border: 3px solid darkorange;
+	background: LightGoldenRodYellow;
+	border-radius: 5px;
+	padding: 2px;
+	height: 300px;
+	width: 400px;
+	margin: 10px;
+}
+
+/* Used in briefcase */
+.filename {
+	padding-left: 15px;
+	font-family: consolas;
+}
+
+/* Used in briefcase */
+#binder {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+/* Used in briefcase */
+#binder td {
+	font-family: consolas;
+}
+
+/* Used in briefcase */
+#binder p {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+th {
+	font-family: arial;
+}
+
+#pagesubtitle {
+	font-family: arial;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+#pagetitle {
+	font-family: arial;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.screenshot {
+	margin: 10px;
+	border: 3px solid black;
+	border-radius: 3px;
+	height: 400px;
+	width: 400px;
+}
+
+.reflection{
+	margin: 10px;
+	border-radius: 3px;
+	height: 400px;
+}
+
+/* Used in portfolio */
+#cabinet {
+	border: 3px solid darkorange;
+	background: LightGoldenRodYellow;
+	border-radius: 5px;
+	margin: 10px;
+	font-family: calibri, sans-serif;
+}
+
+#document {
+	border: 3px solid darkorange;
+	background: LightGoldenRodYellow;
+	border-radius: 5px;
+	margin-left: 15%;
+	width: 70%;
+	padding: 10px;
+	font-family: calibri, sans-serif;
+}
+
+#businesscard {
+	border: 3px solid darkorange;
+	background: LightGoldenRodYellow;
+	border-radius: 5px;
+	height: 200px;
+	width: 350px;
+	margin-left: 30%;
+	margin-top: 20px;
+	font-family: consolas, sans-serif;
+	padding: 10px;
+}
